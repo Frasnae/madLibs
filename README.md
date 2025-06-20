@@ -83,25 +83,25 @@ Output -> yourName
             
 # ELEMENTS INDEX NUMBERS
 ## GENERAL
-0   names
-1   nouns
-2   nounsPlur
-3   adjectives
-4   verbs
-5   verbings (verbs ending in -ing)
-6   verblys (verbs ending in -ly)
-7   numbers
-8   times (measure of time)
-9   colors
+- 0   names
+- 1   nouns
+- 2   nounsPlur
+- 3   adjectives
+- 4   verbs
+- 5   verbings (verbs ending in -ing)
+- 6   verblys (verbs ending in -ly)
+- 7   numbers
+- 8   times (measure of time)
+- 9   colors
 
 ## SILLY
-10  sillys (silly words)
+- 10  sillys (silly words)
 
 ## SPECIAL
-11  animals
-12  feelings
-13  bodys (body parts)
-14  vehicles
-15  places
-16  rooms (rooms in a house)
-17  magicalCreaturesPlur (magical creatures in plural)
+- 11  animals
+- 12  feelings
+- 13  bodys (body parts)
+- 14  vehicles
+- 15  places
+- 16  rooms (rooms in a house)
+- 17  magicalCreaturesPlur (magical creatures in plural)
