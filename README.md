@@ -1,5 +1,5 @@
 # madLibs
-console game Mad Libs
+Console game Mad Libs, to run it in console, open the folder and run madMain.py
 
 # HOW TO ADD A NEW STORY
 
@@ -30,7 +30,8 @@ In this class you will need to add the following:
 
   After finishing editing the madLists.py file, make sure to save and then go to madFunctions.py to add a block to process your element
   when needed in a story using the following structure:
-  
+
+```python
         for title in madLists.hasMyElement:
         if choice == title:
             i = 0
@@ -38,6 +39,7 @@ In this class you will need to add the following:
                 madLists.myElements.append(input("\nGive me a/an [element]\n"))
                 i += 1
             break
+```
             
   Make sure to declare in your story how many of your elements are needed to make sure they get requested
   
@@ -46,6 +48,7 @@ In this class you will need to add the following:
   "package" (can be any name), then write your story using a print() with format to use curvy brackets for placeholders for your story
   elements; each time an element type is needed, use the brackets to indicate which type of element is needed followed by a number
   to identify which one it is, for example:
+  
       print(f"Today I'm going out with {name1} and {name2}")
 
   After you're done formating your story, go back to the begining of the function to set the unpacking section
@@ -63,17 +66,15 @@ In this class you will need to add the following:
       print(f"{name1}")
 
       Output -> ['yourName']
-  
-  -    
-      
+      --------------------------
       name = package[0]
       name1 = name[0]
       print(f"{name1}")
 
       Output -> yourName
             
-==ELEMENTS INDEX NUMBERS==
-GENERAL
+# ELEMENTS INDEX NUMBERS
+## GENERAL
 0   names
 1   nouns
 2   nounsPlur
@@ -85,10 +86,10 @@ GENERAL
 8   times (measure of time)
 9   colors
 
-SILLY
+## SILLY
 10  sillys (silly words)
 
-SPECIAL
+## SPECIAL
 11  animals
 12  feelings
 13  bodys (body parts)
