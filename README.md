@@ -33,12 +33,12 @@ In this class you will need to add the following:
 
 ```python
         for title in madLists.hasMyElement:
-        if choice == title:
-            i = 0
-            while i < story.myElements:
-                madLists.myElements.append(input("\nGive me a/an [element]\n"))
-                i += 1
-            break
+          if choice == title:
+              i = 0
+              while i < story.myElements:
+                  madLists.myElements.append(input("\nGive me a/an [element]\n"))
+                  i += 1
+              break
 ```
             
   Make sure to declare in your story how many of your elements are needed to make sure they get requested
