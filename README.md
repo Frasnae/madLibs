@@ -4,7 +4,7 @@ Console game Mad Libs, to run it in console, open the folder and run madMain.py
 # HOW TO ADD A NEW STORY
 
 Go to madTexts.py and create a new class, the name will be used to identify it across all documents, add this name to the end of
-the list `titles` in [madLists.py] to add it to the random choice list
+the list `titles` in !()[[madLists.py]] to add it to the random choice list
 
 In this class you will need to add the following:
 
