@@ -32,13 +32,13 @@ In this class you will need to add the following:
   when needed in a story using the following structure:
 
 ```python
-        for title in madLists.hasMyElement:
-          if choice == title:
-              i = 0
-              while i < story.myElements:
-                  madLists.myElements.append(input("\nGive me a/an [element]\n"))
-                  i += 1
-              break
+for title in madLists.hasMyElement:
+  if choice == title:
+      i = 0
+      while i < story.myElements:
+          madLists.myElements.append(input("\nGive me a/an [element]\n"))
+          i += 1
+      break
 ```
             
   Make sure to declare in your story how many of your elements are needed to make sure they get requested
@@ -50,7 +50,7 @@ In this class you will need to add the following:
   to identify which one it is, for example:
 
   ```python
-      print(f"Today I'm going out with {name1} and {name2}")
+print(f"Today I'm going out with {name1} and {name2}")
  ```
 
   After you're done formating your story, go back to the begining of the function to set the unpacking section
@@ -60,26 +60,26 @@ In this class you will need to add the following:
   which index you will need, check at the list on the bottom of this file, and use it as follows:
 
    ```python
-      name1, name2 = package[0]
+name1, name2 = package[0]
    ```
 
   If your story only needs one instance of the element, unpack the list twice using another variable to recieve the list inside the package
   to avoid the output to be printed as a list, for example:
 
-   ```python
-      name1 = package[0]
-      print(f"{name1}")
+```python
+name1 = package[0]
+print(f"{name1}")
 
-      Output -> ['yourName']
-   ```
+Output -> ['yourName']
+```
 
-   ```python
-      name = package[0]
-      name1 = name[0]
-      print(f"{name1}")
+```python
+name = package[0]
+name1 = name[0]
+print(f"{name1}")
 
-      Output -> yourName
-   ```
+Output -> yourName
+```
             
 # ELEMENTS INDEX NUMBERS
 ## GENERAL
