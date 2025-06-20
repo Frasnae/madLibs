@@ -3,8 +3,8 @@ Console game Mad Libs, to run it in console, open the folder and run madMain.py
 
 # HOW TO ADD A NEW STORY
 
-Go to madTexts.py and create a new class, the name will be used to identify it across all documents, add this name to the end of the
-"titles" list in madLists.py to add it to the random choice list
+Go to madTexts.py and create a new class, the name will be used to identify it across all documents, add this name to the end of
+the list `titles` in [madLists.py] to add it to the random choice list
 
 In this class you will need to add the following:
 
@@ -12,7 +12,7 @@ In this class you will need to add the following:
   Any element that will be asked to the user to make a story must be added as an attribute and assigned the times you will need
   it as it's value; if the needed element already has a list for it in madLists.py make sure to use the same name of this list
   as the name of the attribute, for example:
-      if you need 2 verbs, since there's an existing list for verbs you would declare it like this -> verbs = 2
+      if you need 2 verbs, since there's an existing list for verbs you would declare it like this -> `verbs = 2`
 
   This will tell the program how many times to ask for each element in the fill() function in madFunctions.py
   
@@ -21,9 +21,9 @@ In this class you will need to add the following:
   structure:
       - Comment describing shortly the new element
       - 'has' list to include the titles of the stories that need said element, name it 'has[MyElement]' and assign the titles that
-      need this element as values of a list -> hasMyElement = ['title1','title2']
+      need this element as values of a list -> `hasMyElement = ['title1','title2']`
       - container list to include the user inputs of this element, name it like the element in plural and assign an empty list as
-      the value -> myElements = []
+      the value -> `myElements = []`
 
   Once your element is added, add a line to the pack() function to append your list to the main package containing all the lists:
   At the very end, do 'package.append(myElements)' to make sure it's used in your story
