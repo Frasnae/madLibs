@@ -71,7 +71,9 @@ In this class you will need to add the following:
       print(f"{name1}")
 
       Output -> ['yourName']
-      --------------------------
+   ```
+
+   ```python
       name = package[0]
       name1 = name[0]
       print(f"{name1}")
